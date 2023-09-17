@@ -1,4 +1,12 @@
 
+
+friend = 'fiona'
+name = 'Bob'
+
+
+
+
+
 def message(input):
     print(input)
-message("The sun was beaming during summer. Bob was very hot and decided to go get some ice cream. As Bob wallked, he met his friend Fiona. Later on they stubbled upon a bulletin board promoting a shampoo bottle using Ronaldo. Since Fiona was with him, he decided to order 2 ice creams instead of 1. Once they got to the ice cream truck, the ice cream man asked which flavor they would like. Fiona ordered strawberry ice cream while Bob ordered chocolate ice cream.") 
+message(f"The sun was beaming during summer. {name} was very hot and decided to go get some ice cream. As {name} wallked, he met his friend {friend}. Later on they stubbled upon a bulletin board promoting a shampoo bottle using Ronaldo. Since {friend} was with him, he decided to order 2 ice creams instead of 1. Once they got to the ice cream truck, the ice cream man asked which flavor they would like. {friend} ordered strawberry ice cream while {name} ordered chocolate ice cream.") 
