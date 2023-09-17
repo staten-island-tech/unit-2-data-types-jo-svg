@@ -1,7 +1,4 @@
-def turtle():
-    turtle = "t"
 
-
-
-
-def square():
+def message(input):
+    print(input)
+message("The sun was beaming during summer. Bob was very hot and decided to go get some ice cream. As Bob wallked, he met his friend Fiona. Later on they stubbled upon a bulletin board promoting a shampoo bottle using Ronaldo. Since Fiona was with him, he decided to order 2 ice creams instead of 1. Once they got to the ice cream truck, the ice cream man asked which flavor they would like. Fiona ordered strawberry ice cream while Bob ordered chocolate ice cream.") 
