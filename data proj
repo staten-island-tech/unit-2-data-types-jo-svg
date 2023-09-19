@@ -1,0 +1,17 @@
+import turtle
+from turtle import *
+t = turtle
+
+
+
+x = "what sentence would you like?"
+y= x.split( )
+z = y[0]
+print(y)
+print(z)
+
+
+
+
+
+
