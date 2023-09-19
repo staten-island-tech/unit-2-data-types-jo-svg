@@ -1,6 +1,4 @@
-import turtle
-from turtle import *
-t = turtle
+
 
 x = "type in a number"
 print(f"hello, {x}")
