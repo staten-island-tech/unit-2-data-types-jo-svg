@@ -2,13 +2,21 @@ import turtle
 from turtle import *
 t = turtle
 
+x = "type in a number"
+print(f"hello, {x}")
+
+number = input("put any number!")
+
+if int(number)%2 == 0:
+    print("even")
+elif int(number)%2 == 1:
+    print("odd")
+
+ 
 
 
-x = "what sentence would you like?"
-y= x.split( )
-z = y[0]
-print(y)
-print(z)
+
+
 
 
 

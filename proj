@@ -9,11 +9,6 @@ person = input("input worker.")
 celebrity = input("input celebrity.")
 
 
-
-
-
-
-
 def message(input):
     print(input)
 message(f"The sun was beaming during summer. {name} was very hot and decided to go get some {food}. As {name} {secondverb}, he met his friend {friend}. Later on they stubbled upon a bulletin board promoting a shampoo bottle using {celebrity}. Since {friend} was with him, he decided to order 2 {food} instead of 1. Once they got to the ice cream truck, the {person} asked which flavor they would like. {friend} ordered strawberry {food} while {name} {verb} chocolate {food}.") 
