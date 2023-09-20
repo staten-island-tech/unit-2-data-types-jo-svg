@@ -11,6 +11,20 @@ elif int(number)%2 == 1:
     print("odd")
 
  
+x = "tips/rating"
+print(f"How well was the service?")
+
+tip = int(input("25%, 20%, 15%, 0%. please do not put %. only number."))
+
+
+if tip == 25:
+    print('great')
+elif tip == 20:
+    print('good')
+if tip == 15:
+    print('okay')
+if tip == 0:
+    print('bad')
 
 
 
