@@ -1,30 +1,55 @@
 
+def n():
+    x = "type in a number"
+    print(f"hello, {x}")
 
-x = "type in a number"
-print(f"hello, {x}")
+    number = input("put any number!")
 
-number = input("put any number!")
+    if int(number)%2 == 0:
+        print("even")
+    elif int(number)%2 == 1:
+        print("odd")
 
-if int(number)%2 == 0:
-    print("even")
-elif int(number)%2 == 1:
-    print("odd")
+def k():
+    x = "tips/rating"
+    print(f"How well was the service?")
 
- 
-x = "tips/rating"
-print(f"How well was the service?")
+    tip = int(input("25%, 20%, 15%, 0%. please do not put %. only number."))
+    if tip == 25:
+        print('great')
+    elif tip == 20:
+        print('good')
+    if tip == 15:
+        print('okay')
+    if tip == 0:
+        print('bad')
 
-tip = int(input("25%, 20%, 15%, 0%. please do not put %. only number."))
 
 
-if tip == 25:
-    print('great')
-elif tip == 20:
-    print('good')
-if tip == 15:
-    print('okay')
-if tip == 0:
-    print('bad')
+def f():
+    print("put any input")
+
+    number = int(input("insert any number"))
+
+
+
+    for i in range(1, number+1):
+        if number%i == 0:
+            print(i)
+
+print(n)
+
+print("put any number")
+
+num = int(input("insert any number and I will find the least common multiple. please put the lower integer in here."))
+nums = int(input("insert another number. please put the greater integer here."))
+
+
+
+
+
+
+        
 
 
 
