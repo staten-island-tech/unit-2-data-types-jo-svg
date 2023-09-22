@@ -37,12 +37,27 @@ def f():
         if number%i == 0:
             print(i)
 
-print(n)
+
 
 print("put any number")
 
 num = int(input("insert any number and I will find the least common multiple. please put the lower integer in here."))
 nums = int(input("insert another number. please put the greater integer here."))
+
+
+
+for h in range(1, nums+1):
+    if nums%h == 0:
+        print(h)
+
+for q in range(1, num+1):
+    if num%q == 0:
+        print(q)
+
+if num == nums:
+    print()
+
+
 
 
 
