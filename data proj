@@ -39,26 +39,28 @@ def f():
 
 
 
-print("put any number")
-
-num = int(input("insert any number and I will find the least common multiple. please put the lower integer in here."))
-nums = int(input("insert another number. please put the greater integer here."))
 
 
+num1 = int(input("insert any number and I will find the GCF:"))
+num2 = int(input("insert other number:"))
 
-for h in range(1, nums+1):
-    if nums%h == 0:
-        print(h)
-
-for q in range(1, num+1):
-    if num%q == 0:
-        print(q)
-
-if num == nums:
-    print()
+if num1 > num2:
+    smaller = num1
+else:
+    smaller = num2
 
 
 
+
+
+for i in range(1, smaller):
+    if num1%i == 0 and num2%i == 0:
+        print()
+
+result=[]
+for x in range:
+    result.append()
+print(result)
 
 
 
