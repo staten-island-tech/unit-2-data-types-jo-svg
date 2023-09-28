@@ -1,4 +1,6 @@
 
+
+#ODD OR EVEN
 def n():
     x = "type in a number"
     print(f"hello, {x}")
@@ -10,6 +12,8 @@ def n():
     elif int(number)%2 == 1:
         print("odd")
 
+
+#TIPS AND RATING
 def k():
     x = "tips/rating"
     print(f"How well was the service?")
@@ -25,7 +29,7 @@ def k():
         print('bad')
 
 
-
+#find factors
 def f():
     print("put any input")
 
@@ -38,8 +42,8 @@ def f():
             print(i)
 
 
-
-
+#int is for numbers
+#GCF thing
 def u():
     num1 = int(input("insert any number and I will find the GCF:"))
     num2 = int(input("insert other number:"))
@@ -58,24 +62,26 @@ def u():
     print(gcf)
 
 
-print(u())
-
-est = 0
-wst = 1
-
+#!= means that its not equal
+#== means its equal
+#bool is true or false 
 
 
 
-if est is True: 
-    wst  is False
-    print('true')
-if wst is True:
-    est is False
-    print('true')
-if wst and est is False:
-    print('false')
-if wst and est is True:
-    print('false')
+x = True
+y = "nuhuh"
+
+
+def truthy(x,y):
+    if type(x) != bool or type(y) != bool:
+        print("no")
+    else:
+        if x == y:
+            print('false')
+        elif x != y:
+            print('true')
+
+truthy(x,y)
 
 
 
