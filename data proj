@@ -1,6 +1,7 @@
 
 
 #ODD OR EVEN
+#every even number is divisable by 2
 def n():
     x = "type in a number"
     print(f"hello, {x}")
@@ -30,6 +31,7 @@ def k():
 
 
 #find factors
+#range(x,y) lists them out or calls them out
 def f():
     print("put any input")
 
@@ -65,13 +67,8 @@ def u():
 #!= means that its not equal
 #== means its equal
 #bool is true or false 
-
-
-
 x = True
-y = "nuhuh"
-
-
+y = False
 def truthy(x,y):
     if type(x) != bool or type(y) != bool:
         print("no")
@@ -81,20 +78,23 @@ def truthy(x,y):
         elif x != y:
             print('true')
 
-truthy(x,y)
+
+#GOOGLE WHILE LOOP
+def LCM():
+    num1 = int(input("num:"))
+    num2 = int(input("num:"))
+
+    if num1 > num2:
+        greater = num1
+    else:
+        greater = num2
 
 
+    for i in range(greater)
 
 
-
-        
-
-
-
-
-
-
-
-
-
+#GCF = [1, 8, 4, 5]
+#c = max(GCF)
+#print(c)
+# another way to find the GCF.kgujvguvlku
 
